@@ -1,0 +1,73 @@
+{ "usuarios":[{
+		"nombre": "Ayelen",
+		"apellido": "Coudeu",
+		"email": "ayelen25@gmail.com",
+		"nacionalidad": "1",
+		"clave": "qwerty",
+		"confirmaclave": "qwerty",
+		"foto": "./foto_usuario/Ayelen5152.jpg"	
+},
+  {
+		"nombre": "Ernesto",
+		"apellido": "Dobien",
+		"email": "erenestodb@gmail.com",
+		"nacionalidad": "1",
+		"clave": "zxcvbnm",
+		"confirmaclave": "zxcvbnm",
+		"foto": "./foto_usuario/Ayelen5152.jpg"
+	},
+	{
+		"nombre": "Emiliano",
+		"apellido": "Baier",
+		"email": "emibaier@gmail.com",
+		"nacionalidad": "1",
+		"clave": "qwerty",
+		"confirmaclave": "zxcvbnm",
+		"foto": "./foto_usuario/Ayelen5152.jpg"
+	},
+	{
+		"nombre": "Nicolas",
+		"apellido": "Ojeda",
+		"email": "nicolojeda@gmail.com",
+		"nacionalidad": "1",
+		"clave": "zxcvbnm",
+		"confirmaclave": "qwerty",
+		"foto": "./foto_usuario/Ayelen5152.jpg"
+	},
+	{
+		"nombre": "Enrique",
+		"apellido": "Cuarto",
+		"email": "enriqueiv@gmail.com",
+		"nacionalidad": "1",
+		"clave": "qwerty",
+		"confirmaclave": "qwerty",
+		"foto": "./foto_usuario/Ayelen5152.jpg"
+	},
+	{
+		"nombre": "Felipe",
+		"apellido": "Dalin",
+		"email": "fpedalin@gmail.com",
+		"nacionalidad": "1",
+		"clave": "qwerty",
+		"confirmaclave": "qwerty",
+		"foto": "./foto_usuario/Ayelen5152.jpg"
+	},
+	{
+		"nombre": "Gladys",
+		"apellido": "Bomba",
+		"email": "latucumana@gmail.com",
+		"nacionalidad": "1",
+		"clave": "qwerty",
+		"confirmaclave": "qwerty",
+		"foto": "./foto_usuario/Ayelen5152.jpg"
+	},
+	{
+		"nombre": "Leopolodo Jacinto",
+		"apellido": "Luque",
+		"email": "leopoldojluque@gmail.com",
+		"nacionalidad": "1",
+		"clave": "123456",
+		"confirmaclave": "123456",
+		"foto": "./foto_usuario/Ayelen5152.jpg"
+	}]
+}

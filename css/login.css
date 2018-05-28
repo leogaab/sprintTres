@@ -1,0 +1,193 @@
+* {box-sizing: border-box;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../images/fondo.png);
+}
+
+.cont-reg-carr {
+	width: 96%;
+	padding: 20px;
+}
+
+.logo {
+	margin: 5px;
+	padding: 10px;
+	width: 95%;
+	margin-left: 0%;
+}
+
+.logo img {
+	width: 90%;
+}
+
+.login-user {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.login-user form {
+	margin: 0 auto;
+}
+
+.login-user form ul {
+	width: 100%;
+	margin: 10px;
+}
+
+.login-user label {
+	font-style: italic;
+	color: #1E3A54;
+	font-size: 0.7em;
+}
+
+.login-user h3 {
+	margin: 10px auto;
+	font-size: 1em;
+	color: #1E3A54;
+	text-align: center;
+	font-weight: bold;
+}
+
+.login-user .boton {
+	margin: 40px;
+}
+
+header {
+	margin-bottom: 40px;
+}
+
+
+@media (min-width: 768px) {
+	.cont-reg-carr {
+		width: 100%;
+	}
+
+	.navegadorprincipal ul {
+		margin: 25px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.navegadorprincipal ul li {
+		list-style: none;
+		text-align: center;
+		padding: 2%;
+	}
+
+	.navegadorprincipal ul li a {
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 1.2em;
+	}
+
+	.logo {
+		margin: 0 auto;
+		padding: 15px;
+	}
+
+	.logo img {
+		width: 70%;
+	}
+
+	.dtc p {
+		font-size: 0.9em;
+	}
+
+	.nav-reg ul li a {
+		font-size: 1em;
+	}
+
+	.carrito p {
+		font-size: 1em;
+	}
+
+	.ocultar {
+		display: block;
+	}
+
+	.contenedorbanner {
+		width: 100%;
+		margin-top: 15px;
+		margin-left: 0%;
+		margin-right: 0%;
+		overflow: hidden;
+	}
+
+	.banner img {
+		margin-top: 10px; 
+		width: 68%;
+		float: left;
+	}
+
+	.login-user { 
+		width: 100%;
+		margin: 10px auto;
+		align-items: center;
+	}
+
+	.login-user h3 {
+		margin-bottom: 5px; 
+		text-align: center;
+		font-size: 1em;
+		color: #1E3A54;
+	}
+
+	.login-user .boton {
+		margin-left: 0;
+		position: relative;
+		display: inline;
+		transform: translateX(70%);
+	}
+}
+
+
+@media (min-width: 1024px){
+	.login-user { 
+		width: 100%;
+		margin: 10px auto;
+		align-items: center;
+	}
+
+	.login-user h3 {
+		margin: 10px auto; 
+		text-align: center;
+		font-size: 1.3em;
+		color: #1E3A54;
+	}
+
+	.login-user .boton {
+		font-size: 0.9em;
+		margin-left: 0;
+		position: relative;
+		display: inline;
+		transform: translateX(70%);
+	}
+
+	.login-user .boton:hover {
+		background-color: #274b6d;
+	}
+	
+}
